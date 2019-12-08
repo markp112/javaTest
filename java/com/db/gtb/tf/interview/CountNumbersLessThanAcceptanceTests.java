@@ -18,7 +18,6 @@ public class CountNumbersLessThanAcceptanceTests {
 	}
 
 	private int testCountNumbersLessThan(int[] sortedArray, int lessThan) {
-//		if (sortedArray.length == 0) return  0;
 		int startPos = 0;
 		int endPos = sortedArray.length;
 		int middle = 0;
